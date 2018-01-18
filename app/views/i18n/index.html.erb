@@ -1,10 +1,9 @@
-<h1><%=t(:title)%></h1>
+<h1><%=t(".title")%></h1>
 <ul>
-<li><%=t(:children)%></li>
-<li><%=t(:fairy_tales)%></li>
-<li><%=t(:romance)%></li>
-<li><%=t(:horror)%></li>
-<li><%=t(:comedy)%></li>
+<li><%=t(".children")%></li>
+<li><%=t(".fairy_tales")%></li>
+<li><%=t(".romance")%></li>
+<li><%=t(".horror")%></li>
+<li><%=t(".comedy")%></li>
+<li><%= link_to image_tag("book.png", alt: "Book logo"), "http://rubyonrails.org/" %></li>
 </ul>
-Ngon Ngu: <%= link_to "English", locale:"en" %>
-<%= link_to "Vietnamese", locale:"vi" %>

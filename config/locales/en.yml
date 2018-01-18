@@ -1,7 +1,24 @@
 en:
-  children: “Children”
-  fairy_tales: “Fairy Tales”
-  romance: “Romance”
-  horror: “Horror”
-  comedy: “Comedy”
-  title: “List of book”
+  i18n:
+    index:
+      children: “Children”
+      fairy_tales: “Fairy Tales”
+      romance: “Romance”
+      horror: “Horror”
+      comedy: “Comedy”
+      title: “List of book”
+      ngonngu: "Select language"
+  layouts:
+    header:
+      title: "List Book"
+      home: "Home"
+      help: "Help"
+      login: "Log in"
+      signup: "Sign up now"
+    footer:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      lan: "language"
+
+

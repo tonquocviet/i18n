@@ -1,14 +1,16 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html>
   <head>
-    <title>Coook Book</title>
-    <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <title>List Book</title>
+    <%= render "layouts/rails_default" %>
+     <%= render "layouts/shim" %>
   </head>
-
   <body>
-    <%= yield %>
+    <%= render "layouts/header.html.erb" %>
+    </header>
+    <div class="container">
+      <%= yield %>
+      <%= render "layouts/footer.html.erb" %>
+    </div>
   </body>
 </html>

@@ -1,0 +1,15 @@
+<%t =t (".title") %>
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to (t"layouts.header.title"), id: "logo" %>
+    <%= link_to image_tag("logo.png", alt: "Book logo"), "http://localhost:3000/i18n/index" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to (t "layouts.header.home"), "#" %></li>
+        <li><%= link_to (t "layouts.header.help"), "#" %></li>
+        <li><%= link_to (t "layouts.header.login"), "#" %></li>
+        <li><%= link_to (t "layouts.header.signup"), '#', class: "btn btn-lg btn-primary" %></li>
+      </ul>
+    </nav>
+  </div>
+</header>

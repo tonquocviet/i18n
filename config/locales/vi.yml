@@ -1,7 +1,23 @@
 vi:
-  children: “Thiếu nhi”
-  fairy_tales: “Cổ tích”
-  romance: “Lãng mạn”
-  horror: “Kinh dị”
-  comedy: “Hài hước”
-  title: “Danh mục sách”
+  i18n:
+    index:
+      children: “Thiếu nhi”
+      fairy_tales: “Cổ tích”
+      romance: “Lãng mạn”
+      horror: “Kinh dị”
+      comedy: “Hài hước”
+      title: “Danh mục sách”
+      ngonngu: "Chọn ngôn ngữ"
+  layouts:
+    header:
+      title: "List of book"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+      signup: "Đăng kí"
+    footer:
+      about: "Xem thêm"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      lan: "Ngôn ngữ"
+
